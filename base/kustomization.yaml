@@ -4,3 +4,7 @@ resources:
 - rollout.yaml
 - service.yaml
 - preview-service.yaml
+images:
+- name: schoolofdevops/vote
+  newName: nagendra30/vote
+  newTag: v6
